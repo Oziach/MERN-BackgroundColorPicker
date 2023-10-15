@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+.innerContainer{
+  display:flex;
+  width: 80vw;  
+  height: 80vh;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.reactApp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +53,4 @@
     transform: rotate(360deg);
   }
 }
+
